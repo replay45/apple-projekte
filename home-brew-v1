@@ -1,0 +1,71 @@
+Disclaimer:
+Diese Anleitung ist ausschließlich für ethical Hacking, sowie für Bildungszwecke !
+Zudem ist die Anleitung verantwortungsbewusst und nur für legale Zwecke zu nutzen.
+Die Nutzung der Anleitung ist auf eigene Gefahr, denn der Autor übernimmt keine Garantie für die Richtigkeit der Anleitung und haftet nicht für entstandene Schäden.
+
+
+
+Home brew
+
+Paketmanager für Linux und MacOS
+
+
+
+
+Hier MacOS Sonoma:
+
+
+
+Installation:
+
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+$ xcode-select --install
+
+$ brew doctor
+
+$ brew analytics off
+
+
+————————————————
+
+Nutzung:
+
+$ brew doctor
+
+$ brew list
+
+$ brew outdated
+
+$ brew update
+
+$ brew upgrade
+
+$ brew cleanup
+
+————————————————
+
+Installieren von Paketen:
+
+
+$ brew install {package name}
+
+————————————————
+
+Deinstallieren von Paketen:
+
+$ brew uninstall {package name}
+
+————————————————
+
+Um GUI Apps installieren zu können:
+$ brew install cask
+
+
+————————————————
+Apps aus dem Apple App-Store über das Terminal installieren über mas:
+$ brew install mas
+
+
+Das beste Dateimanagement im Terminal:
+$ brew install midnight-commander
