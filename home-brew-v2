@@ -5,7 +5,8 @@ Paketmanager für Linux und MacOS
 
 
 
-Hier MacOS Sonoma:
+
+Hier MacOS Sonoma
 
 
 
@@ -36,18 +37,20 @@ $ brew upgrade
 
 $ brew cleanup
 
+
 ————————————————
 
 Installieren von Paketen:
 
-
 $ brew install {package name}
+
 
 ————————————————
 
 Deinstallieren von Paketen:
 
 $ brew uninstall {package name}
+
 
 ————————————————
 
